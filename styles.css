@@ -184,6 +184,9 @@ nav {
         background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
     }
 
+    .text{
+        align-items: center;
+    }
 }
 
 
