@@ -129,6 +129,7 @@ nav {
 
 }
 
+
 @media (max-width: 768px) {
 
     .date {
@@ -208,78 +209,7 @@ nav {
     }
 }
 
-@media (max-width: 600px) {
 
-    .date {
-     
-        font-family: Montserrat;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-    }
-
-    .conect {
-        
-        width: 300px;
-        height: 89.473px;
-        flex-shrink: 0;
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 22.902px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
-    }
-
-    .event {
-        
-        margin-top: 9px;
-        width: 307px;
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 10px;
-        font-style: normal;
-        font-weight: 400;
-        line-height: 149.9%;
-        /* 14.99px */
-    }
-
-    .sign-up {
-        margin-left: 3%;
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 18.288px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        display: inline-flex;
-        padding: 13px 43px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 50px;
-        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
-    }
-
-    .text {
-        flex: 1;
-        max-width: 300px;
-        padding: 20px;
-       
-        margin: 10px;
-    }
-    
-    
-}
 
 .couple {
     position: absolute;
