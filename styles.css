@@ -104,6 +104,7 @@ nav {
     /* 23.984px */
     width: 582px;
 }
+
 .sign-up {
     margin-top: 21px;
     color: #FFF;
@@ -126,7 +127,7 @@ nav {
 @media (max-width: 768px) {
 
     .date {
-
+        margin-left: 36%;
         font-family: Montserrat;
         font-size: 10px;
         font-style: normal;
@@ -139,7 +140,8 @@ nav {
     }
 
     .conect {
-
+        
+        margin-left: -3%;
         width: 326px;
         height: 89.473px;
         flex-shrink: 0;
@@ -154,7 +156,7 @@ nav {
     }
 
     .event {
-
+        margin-top: 20px;
         width: 307px;
         color: #FFF;
         text-align: center;
@@ -176,7 +178,7 @@ nav {
         font-weight: 700;
         line-height: normal;
         display: inline-flex;
-        padding: 13px 44px;
+        padding: 13px 43px;
         justify-content: center;
         align-items: center;
         gap: 10px;
@@ -184,7 +186,7 @@ nav {
         background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
     }
 
-    .text{
+    .text {
         align-items: center;
     }
 }
