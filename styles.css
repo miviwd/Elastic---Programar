@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.background-headline {
+    width: 100%;
+    height: 922px;
+    background-image: url(./assets/img/background-headline.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu {
+    display: flex;
+    margin: 47px;
+
+}
+
+.menu img {
+    max-width: calc(33.33% - 4px);
+    /* 33.33% for each image with 2px margin */
+    height: auto;
+    margin-right: 10px;
+    /* 2px margin between images */
+
+}
+
+@media (max-width: 768px) {
+    .menu img {
+        max-width: 100%;
+        margin-right: 10px;
+
+    }
+
+    .menu {
+        padding: 16px;
+        margin-top: 6px;
+
+
+    }
+
+    .couple {
+        width: 2px;
+    }
+
+
+
+}
+
+
+
+.date {
+    font-family: Montserrat;
+    font-size: 22.468px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: linear-gradient(285deg, #E50071 31.62%, #7404BF 97.49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.conect {
+    width: 610px;
+    height: 167.661px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 46.597px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.event {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 149.9%;
+    /* 23.984px */
+    width: 582px;
+}
+.sign-up {
+    margin-top: 21px;
+    color: #FFF;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 18.288px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-flex;
+    padding: 13px 44px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border-color: transparent;
+    background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
+}
+
+@media (max-width: 768px) {
+
+    .date {
+
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .conect {
+
+        width: 326px;
+        height: 89.473px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 24.902px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    .event {
+
+        width: 307px;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 149.9%;
+        /* 14.99px */
+    }
+
+    .sign-up {
+        margin-left: 16%;
+        color: #FFF;
+        text-align: center;
+        font-family: Montserrat;
+        font-size: 18.288px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        display: inline-flex;
+        padding: 13px 44px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 50px;
+        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
+    }
+
+}
+
+
+
+.couple {
+    position: absolute;
+    right: 0;
+
+    width: 660px;
+    height: 670px;
+
+}
+
+.rectangle {
+    position: absolute;
+    right: 0;
+
+    width: 691px;
+    height: 731px;
+    flex-shrink: 0;
+
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.text {
+    flex: 1;
+    padding: 20px;
+
+}
+
+.content-cont {
+    flex: 1;
+    padding: 20px;
+
+    background-image: url(./assets/img/Rectangle.png)
+}
+
+.content-cont img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 20% auto;
+    padding: 20px;
+    width: 50%;
+    text-align: center;
+    position: relative;
+}
+
+.close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 767px) {
+    .modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    }
+
+    .modal-content {
+        background-color: #fff;
+        margin: 20% auto;
+        padding: 20px;
+        width: 80%;
+        text-align: center;
+        position: relative;
+    }
+
+    .close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: 10px;
+        cursor: pointer;
+    }
+}
+
+
+
+/* Elastic Code */
