@@ -1144,12 +1144,8 @@ section#our-story .title {
 }
 
 .contact-content .contact-form {
-    padding: 44px;
-    height: 600px;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+   
+    
 }
 
 .contact-content .contact-form .logotipo {
