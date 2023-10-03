@@ -1407,6 +1407,10 @@ footer .display-item {
         display: block;
     }
 
+    .modal-backdrop.show {
+         opacity:0; 
+    }
+
     .hidden-mobile {
         display: none
     }
@@ -1792,4 +1796,8 @@ footer .display-item {
 .contact-form form{
     padding: 25px;
     margin-top: -117px;
+}
+
+.btn:hover {
+    border-color: transparent;
 }
