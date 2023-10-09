@@ -30,7 +30,7 @@ nav {
 
 .menu {
     display: flex;
-    margin: 47px;
+    margin: 19px;
 
 }
 
@@ -58,7 +58,9 @@ nav {
 
     }
 
-    .couple {}
+    .couple {
+        display: none;
+    }
 
 
 
@@ -80,7 +82,7 @@ nav {
 
 .conect {
 
-    height: 167.661px;
+    
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -98,9 +100,9 @@ nav {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 149.9%;
+    line-height: 30px;
     /* 23.984px */
-    width: 582px;
+   
 }
 
 .sign-up {
@@ -125,6 +127,10 @@ nav {
 .text {
     flex: 1;
     padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
 
 }
 
@@ -175,7 +181,7 @@ nav {
     }
 
     .conect {
-        margin-left: -32px;
+     
         width: 300px;
         height: 89.473px;
         flex-shrink: 0;
@@ -190,7 +196,7 @@ nav {
     }
 
     .event {
-        margin-left: -33px;
+        
         margin-top: 9px;
         width: 307px;
         color: #FFF;
@@ -204,7 +210,7 @@ nav {
     }
 
     .sign-up {
-        margin-left: 3%;
+       
         color: #FFF;
         text-align: center;
         font-family: Montserrat;
@@ -234,6 +240,7 @@ nav {
 
         .text {
             max-width: 100%;
+            
         }
     }
 }
@@ -1800,4 +1807,8 @@ footer .display-item {
 
 .btn:hover {
     border-color: transparent;
+}
+
+@media (max-width: 1400px){
+
 }
