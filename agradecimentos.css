@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --cor-fonte-gradiente: linear-gradient(105deg, #E50071 25.31%, #AD33FF 102.29%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-cabecalho{
+    background-image: url('/assets/img/Agradecimento.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.texto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 170px;
+}
+
+.texto__obrigado{
+    background: var(--cor-fonte-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fonte-principal);
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.texto__inscrever{
+
+}
