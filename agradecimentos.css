@@ -83,6 +83,12 @@ main {
     padding: 40px;
 }
 
+.redes-sociais img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
 @media screen and (max-width: 1024px){
     .texto__inscrever{
         font-size: 50px;
@@ -122,6 +128,10 @@ main {
         width: 100%;
     }
 
+    .texto__obrigado{
+        font-size: 23px;
+    }
+
     .texto__inscrever{
         font-size: 34px;
         font-weight: 800;
@@ -133,6 +143,15 @@ main {
 
     .botao__grupo {
         font-size: 12px;
-        padding: 10px 30px;
+        padding: 9px 32px;
+    }
+
+    .redes-sociais {
+        padding: 40px 0 90px;
+    }
+
+    .redes-sociais img{
+        height: 26px;
+        width: 26px;
     }
 }
