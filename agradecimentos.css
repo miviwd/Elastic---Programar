@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700&family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+:root {
+    --fonte-principal: 'Montserrat';
+    --cor-fonte-gradiente: linear-gradient(105deg, #E50071 25.31%, #AD33FF 102.29%);
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    background-image: url('/assets/img/Agradecimento.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.texto{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 90px;
+}
+
+.texto__obrigado{
+    background: var(--cor-fonte-gradiente);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: var(--fonte-principal);
+    font-size: 45px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.texto__inscrever{
+    color: rgba(0, 0, 0, 0);
+    -webkit-text-stroke: 2px #E50071;
+    font-family: var(--fonte-principal);
+    font-size: 70px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.texto__grupo-wpp{
+    color: #FFFFFF;
+    font-family: var(--fonte-principal);
+    font-size: 18px;
+    text-align: center;
+}
+
+.botao__grupo{
+    border-radius: 50px;
+    background: linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%);
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: var(--fonte-principal);
+    padding: 13px 44px;
+    text-decoration: none;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: row;
+    gap: 35px;
+    justify-content: center;
+    padding: 40px;
+}
+
+.redes-sociais img{
+    cursor: pointer;
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 1024px){
+    .texto__inscrever{
+        font-size: 50px;
+    }
+
+    .texto__grupo-wpp{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
+    main {
+        background-image: url('/assets/img/Bakcground-Mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .texto__inscrever{
+        font-size: 45px;
+    }
+
+    .texto__grupo-wpp{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    main {
+        background-image: url('/assets/img/Bakcground-Mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        width: 100%;
+    }
+
+    .texto__obrigado{
+        font-size: 23px;
+    }
+
+    .texto__inscrever{
+        font-size: 34px;
+        font-weight: 800;
+    }
+
+    .texto__grupo-wpp{
+        font-size: 12px;
+    }
+
+    .botao__grupo {
+        font-size: 12px;
+        padding: 9px 32px;
+    }
+
+    .redes-sociais {
+        padding: 40px 0 90px;
+    }
+
+    .redes-sociais img{
+        height: 26px;
+        width: 26px;
+    }
+}
