@@ -61,7 +61,6 @@ main {
     font-family: var(--fonte-principal);
     font-size: 18px;
     text-align: center;
-    width: 500px;
 }
 
 .botao__grupo{
@@ -80,10 +79,21 @@ main {
     display: flex;
     flex-direction: row;
     gap: 35px;
-    margin: 35px 0;
+    justify-content: center;
+    padding: 40px;
 }
 
-@media (max-width: 767px){
+@media screen and (max-width: 1024px){
+    .texto__inscrever{
+        font-size: 50px;
+    }
+
+    .texto__grupo-wpp{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 768px){
     main {
         background-image: url('/assets/img/Bakcground-Mobile.svg');
         background-position: center;
@@ -93,15 +103,31 @@ main {
         width: 100%;
     }
 
-    .texto__obrigado{
-        font-size: 23px;
+    .texto__inscrever{
+        font-size: 45px;
+    }
+
+    .texto__grupo-wpp{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    main {
+        background-image: url('/assets/img/Bakcground-Mobile.svg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+        width: 100%;
     }
 
     .texto__inscrever{
         font-size: 34px;
+        font-weight: 800;
     }
 
     .texto__grupo-wpp{
-        font-size: 8px;
+        font-size: 12px;
     }
 }
