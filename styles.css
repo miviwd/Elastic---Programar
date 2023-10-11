@@ -30,7 +30,7 @@ nav {
 
 .menu {
     display: flex;
-    margin: 47px;
+    margin: 19px;
 
 }
 
@@ -43,14 +43,16 @@ nav {
 
 }
 
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .menu img {
+        display: none;
         max-width: 100%;
         margin-right: 10px;
 
     }
 
     .menu {
+        display: none;
         padding: 3px;
         margin-top: 6px;
         margin: 16px;
@@ -58,7 +60,9 @@ nav {
 
     }
 
-    .couple {}
+    .couple {
+       
+    }
 
 
 
@@ -80,7 +84,7 @@ nav {
 
 .conect {
 
-    height: 167.661px;
+    
     flex-shrink: 0;
     color: #FFF;
     font-family: Montserrat;
@@ -98,9 +102,9 @@ nav {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 149.9%;
+    line-height: 30px;
     /* 23.984px */
-    width: 582px;
+   
 }
 
 .sign-up {
@@ -124,7 +128,10 @@ nav {
 
 .text {
     flex: 1;
-    padding: 20px;
+
+ 
+    flex-direction: column;
+   
 
 }
 
@@ -139,58 +146,42 @@ nav {
 
 }
 
-.rectangle-grey {
-    display: none;
-}
 
 
-@media (max-width: 768px) {
 
-    .rectangle-grey {
-        display: flex;
-        height: 100px;
-        background-color: #141414;
+@media (max-width: 767px) {
 
-        flex-shrink: 0;
-    }
-
-    .rectangle {
-
+    .background-headline{
         display: none;
-
+    }
+    .content-right {
+display: none;
 
     }
 
     .date {
-
-        font-family: Montserrat;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        
         font-size: 10px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
-        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
-        background-clip: text;
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+  
     }
 
     .conect {
-        margin-left: -32px;
+     
         width: 300px;
         height: 89.473px;
-        flex-shrink: 0;
+    
         color: #FFF;
         text-align: center;
-        font-family: Montserrat;
+        
         font-size: 22.902px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        text-transform: uppercase;
+     
     }
 
     .event {
-        margin-left: -33px;
+        
         margin-top: 9px;
         width: 307px;
         color: #FFF;
@@ -204,36 +195,22 @@ nav {
     }
 
     .sign-up {
-        margin-left: 3%;
-        color: #FFF;
-        text-align: center;
-        font-family: Montserrat;
-        font-size: 18.288px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        display: inline-flex;
-        padding: 13px 43px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 50px;
-        background: var(--Degrade-2, linear-gradient(110deg, #E50071 21.12%, #7404BF 74.66%));
+        padding: 13px 44px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
     }
 
-    .text {
-        flex: 1;
-        max-width: 300px;
-        padding: 20px;
-
-        margin: 10px;
-    }
 
     @media (max-width: 768px) {
 
 
         .text {
             max-width: 100%;
+            justify-content: center;
+      
+            display: flex;
+            
         }
     }
 }
@@ -1407,6 +1384,10 @@ footer .display-item {
         display: block;
     }
 
+    .modal-backdrop.show {
+         opacity:0; 
+    }
+
     .hidden-mobile {
         display: none
     }
@@ -1792,4 +1773,12 @@ footer .display-item {
 .contact-form form{
     padding: 25px;
     margin-top: -117px;
+}
+
+.btn:hover {
+    border-color: transparent;
+}
+
+@media (max-width: 1400px){
+
 }
