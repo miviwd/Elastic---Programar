@@ -130,4 +130,9 @@ main {
     .texto__grupo-wpp{
         font-size: 12px;
     }
+
+    .botao__grupo {
+        font-size: 12px;
+        padding: 10px 30px;
+    }
 }
