@@ -164,7 +164,7 @@ nav {
     }
 
     .background-headline {
-        background-image: url(./assets/img/img_bg\ 1.png);
+        background-image: url(./assets/img/img_bg\ 2\ \(2\).png);
     }
 
     .date {
@@ -455,8 +455,11 @@ nav {
     }
     
     .footer-color {
-
-        background-color: black;
+        background:rgb(8 8 29 / 96%);
+        
+    
+       
+     
         padding: 0 75px;
     }
 
@@ -500,6 +503,9 @@ nav {
 
     }
 
+    .logo-a{
+        display: none;
+    }
     .couple-pt-2 {
         bottom: 0;
         position: absolute;
@@ -1615,7 +1621,7 @@ footer .display-item {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
-    margin: 32px;
+    margin: 10px 0 36px;
 }
 
 @media (max-width: 1200px) {
