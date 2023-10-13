@@ -425,11 +425,13 @@ nav {
 
 .h4-container {
     display: none;
+
 }
 
 .text-footer {
     display: none;
 }
+
 
 
 
@@ -532,7 +534,9 @@ nav {
         display: none;
     }
 
+
     .sinal-mais {
+
         display: none;
     }
 
@@ -544,13 +548,7 @@ nav {
         display: none;
     }
 
-    .fot {
-        display: none;
-    }
 
-    .h4-container {
-        display: flex;
-    }
 
     .text-footer {
         flex: 1;
@@ -570,31 +568,32 @@ nav {
         display: none;
     }
 
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .navbar-nav .nav-link {
     color: #FBFBFB;
@@ -1378,11 +1377,11 @@ section#our-story .title {
 }
 
 .contact-content .contact-image img {
-    -webkit-mask-image: linear-gradient(to top, transparent 5%, black 100%);
+   
     border-radius: 15px 40px 40px 15px;
 }
 
-.contact-content .contact-form {}
+
 
 .contact-content .contact-form .logotipo {
     margin: 0 auto;
