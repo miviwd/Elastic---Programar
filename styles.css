@@ -577,6 +577,7 @@ nav {
 
     .h4-container {
         display: flex;
+        justify-content: center;
     }
 
     .text-footer {
@@ -625,8 +626,8 @@ nav {
 
     .line-2 {
         padding-top: 1px;
-        ;
-        width: 156.377px;
+        
+        width: 90%;
         height: 0.428px;
         background: #868686;
         filter: blur(0.356890469789505px);
@@ -1559,6 +1560,7 @@ footer h4 {
 }
 
 footer ul {
+    display: flex;
     list-style: none;
     padding-left: 0px;
 }
