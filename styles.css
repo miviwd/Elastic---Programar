@@ -1561,6 +1561,7 @@ footer h4 {
 
 footer ul {
     display: flex;
+    flex-direction: column;
     list-style: none;
     padding-left: 0px;
 }
@@ -2037,6 +2038,10 @@ footer .display-item {
     footer p {
         max-width: 80%;
         text-align: center;
+    }
+
+    footer ul {
+        flex-direction: row;
     }
 
 
