@@ -580,6 +580,18 @@ nav {
         justify-content: center;
     }
 
+    .termos-mobile {
+        display: flex;
+        gap: 51px;
+        margin: 0;
+    }
+
+    .termos-mobile li {
+        font-size: 12px;
+        font-weight: 700;
+        margin: 0;
+    }
+
     .text-footer {
         flex: 1;
         margin: 10px;
