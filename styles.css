@@ -577,6 +577,11 @@ nav {
 
     .h4-container {
         display: flex;
+        justify-content: center;
+    }
+
+    .h4-container ul {
+        display: flex;
     }
 
     .text-footer {
