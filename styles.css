@@ -456,11 +456,6 @@ nav {
     
     .footer-color {
         background:rgb(8 8 29 / 96%);
-        
-    
-       
-     
-        padding: 0 75px;
     }
 
     .content-left {
@@ -478,7 +473,6 @@ nav {
 
     .content-pt-2 {
         width: 86%;
-
         bottom: 63px;
         position: relative;
         display: flex;
@@ -495,13 +489,15 @@ nav {
     }
 
     .content-right-pt-2 {
+        background-color: #1414146e;
+        border-radius: 15px;
         width: 50%;
         padding: 9px;
         display: flex;
         flex-direction: column;
-
-
-    }
+        z-index: 2;
+        margin-left: 20px;
+}
 
     .logo-a{
         display: none;
@@ -582,19 +578,17 @@ nav {
 
     .termos-mobile {
         display: flex;
-        gap: 51px;
+        gap: 5px;
+        justify-content: space-between;
         margin: 0;
     }
 
-    .termos-mobile li {
+    .termos-mobile span a {
         font-size: 12px;
         font-weight: 700;
-        margin: 0;
     }
 
     .text-footer {
-        flex: 1;
-        margin: 10px;
         /* Adicione margem para espaçamento entre os elementos */
         display: block;
         background: var(--Degrade-1, linear-gradient(90deg, #1777EE 0.33%, #1BEEE7 100%));
