@@ -33,7 +33,7 @@ nav {
 
 .menu {
     display: flex;
-    margin: 20px;
+    margin: 24px;
 
 }
 
@@ -107,7 +107,7 @@ nav {
 }
 
 .sign-up {
-    margin-top: 19px;
+    margin-top: 31px;
     color: #FFF;
     text-align: center;
     font-family: Montserrat;
@@ -126,6 +126,7 @@ nav {
 }
 
 .text {
+    margin-top: 64px;
     flex: 1;
     padding: 20px;
     display: flex;
@@ -133,8 +134,13 @@ nav {
     flex-direction: column;
 
 
+
 }
 
+.btn-column{
+    display: flex;
+
+}
 
 
 .rectangle {
@@ -210,7 +216,7 @@ nav {
         max-width: 100%;
         font-size: 11.902px;
         margin-top: 9px;
-
+margin-bottom: 0;
         color: #FFF;
         text-align: center;
         font-family: Montserrat;
