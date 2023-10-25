@@ -148,7 +148,7 @@ nav {
     position: absolute;
     right: 0;
 
-    width: 691px;
+    
 
     flex-shrink: 0;
 
@@ -378,6 +378,7 @@ margin-bottom: 0;
 
 .content-right {
     width: 50%;
+ 
 
 }
 
@@ -432,16 +433,7 @@ margin-bottom: 0;
     display: none;
 }
 
-@media (max-width: 992px) {
-    .content {
-        flex-direction: column;
 
-    }
-
-    .content-left {
-        width: 100%;
-    }
-}
 
 .h4-container {
     display: none;
@@ -453,7 +445,7 @@ margin-bottom: 0;
 }
 
 
-
+  
 
 @media (max-width: 767px) {
     .footer-color >*{
@@ -462,10 +454,6 @@ margin-bottom: 0;
     
     .footer-color {
         background:rgb(8 8 29 / 96%);
-        
-    
-       
-     
         padding: 0 75px;
     }
 
@@ -570,13 +558,6 @@ margin-bottom: 0;
         display: none;
     }
 
-    .elastic-code {}
-
-
-    .sinal-mais {}
-
-    .prrograma-a {}
-
     .believe {
         display: none;
     }
@@ -656,6 +637,325 @@ margin-bottom: 0;
 
 
 }
+
+
+/* @media (max-width: 1350px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 484px;
+    }
+}
+
+@media (max-width: 1340px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 478px;
+    }
+}
+
+@media (max-width: 1325px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 472px;
+    }
+}
+
+@media (max-width: 1315px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 467px;
+    }
+}
+
+
+
+@media (max-width: 1315px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 460px;
+    }
+}
+
+
+@media (max-width: 1300px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 456px;
+    }
+}
+
+@media (max-width: 1287px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 454px;
+    }
+}
+
+
+
+@media (max-width: 1268px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 446px;
+    }
+}
+
+@media (max-width: 1250px) {
+    .rectangle{
+        width: 50% ;
+    }
+
+    .save{
+        top: 437px;
+    }
+}
+
+
+@media (max-width: 1240px) {
+
+    .save{
+        top: 432px;
+    }
+}
+
+@media (max-width: 1230px) {
+
+    .save{
+        top: 428px;
+    }
+}
+
+@media (max-width: 1220px) {
+
+    .save{
+        top: 423px;
+    }
+}
+
+
+@media (max-width: 1210px) {
+
+    .save{
+        top: 418px;
+    }
+}
+
+
+@media (max-width: 1200px) {
+
+    .save{
+        top: 413px;
+    }
+}
+
+@media (max-width: 1190px) {
+
+    .save{
+        top: 409px;
+    }
+}
+
+@media (max-width: 1190px) {
+
+    .save{
+        top: 409px;
+    }
+}
+
+@media (max-width: 1180px) {
+
+    .save{
+        top: 404px;
+    }
+}
+
+@media (max-width: 1170px) {
+
+    .save{
+        top: 399px;
+    }
+}
+
+@media (max-width: 1160px) {
+
+    .save{
+        top: 395px;
+    }
+}
+
+@media (max-width: 1150px) {
+
+    .save{
+        top: 390px;
+    }
+}
+
+@media (max-width: 1140px) {
+
+    .save{
+        top: 385px;
+    }
+}
+
+@media (max-width: 1130px) {
+
+    .save{
+        top: 380px;
+    }
+}
+
+@media (max-width: 1120px) {
+
+    .save{
+        top: 375px;
+    }
+}
+
+
+@media (max-width: 1110px) {
+
+    .save{
+        top: 370px;
+    }
+}
+
+@media (max-width: 1100px) {
+
+    .save{
+        top: 365px;
+    }
+}
+
+
+@media (max-width: 1090px) {
+
+    .save{
+        top: 360px;
+    }
+}
+
+@media (max-width: 1080px) {
+
+    .save{
+        top: 355px;
+    }
+}
+
+@media (max-width: 1070px) {
+
+    .save{
+        top: 350px;
+    }
+}
+
+
+@media (max-width: 1060px) {
+
+    .save{
+        top: 345px;
+    }
+}
+
+
+@media (max-width: 1050px) {
+
+    .save{
+        top: 340px;
+    }
+}
+
+@media (max-width: 1040px) {
+
+    .save{
+        top: 335px;
+    }
+}
+
+@media (max-width: 1030px) {
+
+    .save{
+        top: 330px;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .save{
+        top: 325px;
+    }
+}
+
+@media (max-width: 1010px) {
+
+    .save{
+        top: 320px;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .save{
+        top: 315px;
+    }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1597,6 +1897,10 @@ footer .display-item {
     align-items: center;
 }
 
+.display-item ul li {
+    word-break: break-word;
+}
+
 .text-footer {
     color: var(--Branco, #E9E9E9);
     font-family: 'Barlow';
@@ -2114,3 +2418,5 @@ footer .display-item {
 }
 
 @media (max-width: 1400px) {}
+
+
