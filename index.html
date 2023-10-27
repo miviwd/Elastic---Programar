@@ -1,208 +1,289 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link href="styles.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" />
     <title>Elastic + Programar</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="background-headline">
-        <section class="headline">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="content">
-                            <div class="content-left">
-                                    <div class="menu">
-                                        <!-- <img src="./assets/icons/logoProgramarElasticCode.svg" alt="Logo Elastic Code - Programar Com Vc"
+      <section class="headline">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="content">
+                <div class="content-left">
+                  <div class="menu">
+                    <!-- <img src="./assets/icons/logoProgramarElasticCode.svg" alt="Logo Elastic Code - Programar Com Vc"
                                             class="elastic-code"/>   -->
-                                            <img src="./assets/icons/logotipo-elastic-code.svg">
-                                            <img src="./assets/icons/sinal-mais.svg">
-                                            <img src="./assets/icons/logotipo-programar-com-vc.svg">
+                    <img src="./assets/icons/logotipo-elastic-code.svg" />
+                    <img src="./assets/icons/sinal-mais.svg" />
+                    <img src="./assets/icons/logotipo-programar-com-vc.svg" />
+                  </div>
+                  <div class="text">
+                    <h2 class="date">SAVE THE DATE</h2>
+                    <h4 class="conect">
+                      Conectando pessoas e programando o futuro
+                    </h4>
+                    <p class="event">
+                      Muito mais do que um evento, este é um convite para
+                      participar de uma experiência que irá transformar a
+                      maneira como encaramos o mundo. Afinal, quando mentes
+                      brilhantes se unem, quando a programação encontra a
+                      inovação e quando comunidades se fortalecem, o futuro se
+                      revela com toda a sua grandiosidade.
+                    </p>
+                    <div class="btn-column">
+                      <button
+                        type="button"
+                        class="sign-up btn btn-primary"
+                        data-bs-toggle="modal"
+                        data-bs-target="#exampleModal"
+                      >
+                        Inscreva-se
+                      </button>
+                      <!-- Button trigger modal -->
+
+                      <!-- Modal -->
+                      <div
+                        class="modal fade"
+                        id="exampleModal"
+                        tabindex="-1"
+                        aria-labelledby="exampleModalLabel"
+                        aria-hidden="true"
+                      >
+                        <div class="modal-dialog modal-dialog-centered">
+                          <div class="modal-content">
+                            <div class="modal-body">
+                              <div class="contact-content">
+                                <div class="contact-form">
+                                  <div class="modal-couple"></div>
+                                  <form action="">
+                                    <h3>Inscreva-se e fique ligado!</h3>
+                                    <div class="form-group">
+                                      <img
+                                        src="./assets/icons/icon nome (1).svg"
+                                        alt=""
+                                      />
+                                      <input
+                                        type="text"
+                                        placeholder="Nome completo"
+                                        id="name"
+                                        name="name"
+                                      />
                                     </div>
-                                <div class="text">
-                                    <h2 class="date">SAVE THE DATE</h2>
-                                    <h4 class="conect">Conectando pessoas e programando o futuro</h4>
-                                    <p class="event">Muito mais do que um evento, este é um convite para participar
-                                        de uma
-                                        experiência que irá transformar a maneira como encaramos o mundo. Afinal,
-                                        quando mentes brilhantes se unem, quando a programação encontra a inovação e
-                                        quando comunidades se fortalecem, o futuro se revela com toda a sua
-                                        grandiosidade.</p>
-                                       <div class="btn-column">
-                                        <button type="button" class=" sign-up btn btn-primary" data-bs-toggle="modal"
-                                        data-bs-target="#exampleModal">Inscreva-se</button>
-                                    <!-- Button trigger modal -->
-
-
-                                    <!-- Modal -->
-                                    <div class="modal fade" id="exampleModal" tabindex="-1"
-                                        aria-labelledby="exampleModalLabel" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered">
-                                            <div class="modal-content">
-                                                <div class="modal-body">
-                                                    <div class="contact-content">
-                                                        <div class="contact-form">
-                                                            <div class="modal-couple">
-                                                            </div>
-                                                            <form action="">
-                                                                <h3>Inscreva-se e fique ligado!</h3>
-                                                                <div class="form-group">
-                                                                    <img src="./assets/icons/icon nome (1).svg" alt="">
-                                                                    <input type="text" placeholder="Nome completo"
-                                                                        id="name" name="name">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <img src="./assets/icons/email (1).svg" alt="">
-                                                                    <input type="email" placeholder="Endereço de e-mail"
-                                                                        id="email" name="email">
-                                                                </div>
-                                                                <div class="form-group">
-                                                                    <img src="./assets/icons/telefone (1).svg" alt="">
-                                                                    <input type="tel"
-                                                                        placeholder="Telefone para contato" id="phone"
-                                                                        name="telephone">
-                                                                </div>
-
-                                                                <button type="button" onclick="sendEmail()" >Enviar</button>
-                                                            </form>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                    <div class="form-group">
+                                      <img
+                                        src="./assets/icons/email (1).svg"
+                                        alt=""
+                                      />
+                                      <input
+                                        type="email"
+                                        placeholder="Endereço de e-mail"
+                                        id="email"
+                                        name="email"
+                                      />
+                                    </div>
+                                    <div class="form-group">
+                                      <img
+                                        src="./assets/icons/telefone (1).svg"
+                                        alt=""
+                                      />
+                                      <input
+                                        type="tel"
+                                        placeholder="Telefone para contato"
+                                        id="phone"
+                                        name="telephone"
+                                      />
                                     </div>
 
-                                       </div>
-                                  
+                                    <button type="button" onclick="sendEmail()">
+                                      Enviar
+                                    </button>
+                                  </form>
                                 </div>
+                              </div>
                             </div>
-                            <div class="content-right">
-                                <div class="content-pt-2">
-                                    <div class="content-left-pt-2">
-                                        <img class="img-fluid couple-pt-2" src="./assets/img/couple  (1).png" alt="imagem casal">
-                                    </div>
-                                    <div class="content-right-pt-2">
-                                        
-                                           <span class="save-date-2">Save the date</span>
-                                            <span class="november-2">10 e 11 de novembro</span>
-                                            <div class="line-2"></div>
-                                            <span class="years-2">“Há 10 anos programando com você”</span>
-                                        
-                                      
-                                    </div>
-                                </div>
-                                <img src="./assets/img/Untitled (3).svg" class="img-fluid rectangle">
-                                <!-- <img src="assets/img/couple  (1).png" alt="Imagem no container"
-                                    class="img-fluid couple"> -->
-                                <div class="save">
-                                    <span class="save-date">Save the date</span>
-                                    <span class="november">10 e 11 de novembro</span>
-                                    <div class="line"></div>
-                                    <span class="years">“Há 10 anos programando com você”</span>
-                                </div>
-                               
-                            </div>
+                          </div>
                         </div>
+                      </div>
                     </div>
+                  </div>
                 </div>
+                <div class="content-right">
+                  <div class="content-pt-2">
+                    <div class="content-left-pt-2">
+                      <img
+                        class="img-fluid couple-pt-2"
+                        src="./assets/img/couple  (1).png"
+                        alt="imagem casal"
+                      />
+                    </div>
+                    <div class="content-right-pt-2">
+                      <span class="save-date-2">Save the date</span>
+                      <span class="november-2">10 e 11 de novembro</span>
+                      <div class="line-2"></div>
+                      <span class="years-2"
+                        >“Há 10 anos programando com você”</span
+                      >
+                    </div>
+                  </div>
+                  <div class="container-image">
+                    <img
+                      src="./assets/img/casal-desktop.png"
+                      class="img-fluid rectangle"
+                    />
+                    <div class="save">
+                      <span class="save-date">Save the date</span>
+                      <span class="november">10 e 11 de novembro</span>
+                      <div class="line"></div>
+                      <span class="years"
+                        >“Há 10 anos programando com você”</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
     </div>
     <footer class="footer-color">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="about">
-                        <a href="#headline">
-
-                            <img src="./assets/icons/logoProgramarElasticCode.svg" class="img-fluid logo-a"/>
-
-                        </a>
-                        <p class="believe">Nós acreditamos que a educação é a maior fonte aceleradora da performance de um
-                            profissional.
-                        </p>
-                        <div class="medias-socias desktop">
-                            <a href="https://www.facebook.com/people/Elastic-Code/100094487478324/" target="blank">
-                                <img src="./assets/icons/Facebook - Negative (1).svg" class="fa fa-facebook">
-                            </a>
-                            <a href="https://www.instagram.com/elastic.code/" target="blank">
-                                <img src="./assets/icons/Group.svg" class="fa fa-instagram">
-                            </a>
-                            <a href="https://www.linkedin.com/company/elastic-code/?viewAsMember=true" target="blank">
-                                <img src="./assets/icons/Group (1).svg" class="fa fa-linkedin">
-                            </a>
-                        </div>
-                        <div class="medias-socias mobile">
-                            <a href="https://www.facebook.com/people/Elastic-Code/100094487478324/" target="blank">
-                                <img src="./assets/icons/Facebook - Negative (3).svg" class="fa fa-facebook">
-                            </a>
-                            <a href="https://www.instagram.com/elastic.code/" target="blank">
-                                <img src="./assets/icons/Group (4).svg" class="fa fa-instagram">
-                            </a>
-                            <a href="https://www.linkedin.com/company/elastic-code/?viewAsMember=true" target="blank">
-                                <img src="./assets/icons/Group (5).svg" class="fa fa-linkedin">
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                    <div class="col-md-3 te">
-                        <div class="display-item">
-                            <ul>
-                                <h4>Informações</h4>
-                                <li><a href="">Contato</a></li>
-                                <li><a href="">Quem Somos</a></li>
-                                <li><a href="">Métodos</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 te">
-                        <div class="display-item">
-                            <ul>
-                                <h4>Contatos</h4>
-                                <h5>Telefone:</h5>
-                                <li>(11) 96422-1672</li>
-                                <h5>Email:</h5>
-                                <li>programar@elasticcode.com.br</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-3 te">
-                        <div class="display-item">
-                            <ul>
-                                <h4>Jurídico</h4>
-                                <li>Termos e Condições</li>
-                                <li>Política de Privacidade</li>
-                                <li>Política de Cookies</li>
-                                <li>CNPJ: 17.835.425/0001-13</li>
-                            </ul>
-                        </div>
-                    </div>
-               
-                <div class="h4-container">
-                    <h4 class="text-footer">Jurídico</h4>
-                    <h4 class="text-footer">Informações</h4>
-                    <h4 class="text-footer">Contatos</h4>
-                  </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="about">
+              <a href="#headline">
+                <img
+                  src="./assets/icons/logoProgramarElasticCode.svg"
+                  class="img-fluid logo-a"
+                />
+              </a>
+              <p class="believe">
+                Nós acreditamos que a educação é a maior fonte aceleradora da
+                performance de um profissional.
+              </p>
+              <div class="medias-socias desktop">
+                <a
+                  href="https://www.facebook.com/people/Elastic-Code/100094487478324/"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/icons/Facebook - Negative (1).svg"
+                    class="fa fa-facebook"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/elastic.code/"
+                  target="blank"
+                >
+                  <img src="./assets/icons/Group.svg" class="fa fa-instagram" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/elastic-code/?viewAsMember=true"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/icons/Group (1).svg"
+                    class="fa fa-linkedin"
+                  />
+                </a>
+              </div>
+              <div class="medias-socias mobile">
+                <a
+                  href="https://www.facebook.com/people/Elastic-Code/100094487478324/"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/icons/Facebook - Negative (3).svg"
+                    class="fa fa-facebook"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/elastic.code/"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/icons/Group (4).svg"
+                    class="fa fa-instagram"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/elastic-code/?viewAsMember=true"
+                  target="blank"
+                >
+                  <img
+                    src="./assets/icons/Group (5).svg"
+                    class="fa fa-linkedin"
+                  />
+                </a>
+              </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="last-phrase">
-                        <span class="direitos">©2023 Elastic Code. Todos os direitos reservados.</span>
-                    </div>
-                </div>
+          </div>
+          <div class="col-md-3 te">
+            <div class="display-item">
+              <ul>
+                <h4>Informações</h4>
+                <li><a href="">Contato</a></li>
+                <li><a href="">Quem Somos</a></li>
+                <li><a href="">Métodos</a></li>
+              </ul>
             </div>
+          </div>
+          <div class="col-md-3 te">
+            <div class="display-item">
+              <ul>
+                <h4>Contatos</h4>
+                <h5>Telefone:</h5>
+                <li>(11) 96422-1672</li>
+                <h5>Email:</h5>
+                <li>programar@elasticcode.com.br</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3 te">
+            <div class="display-item">
+              <ul>
+                <h4>Jurídico</h4>
+                <li>Termos e Condições</li>
+                <li>Política de Privacidade</li>
+                <li>Política de Cookies</li>
+                <li>CNPJ: 17.835.425/0001-13</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="h4-container">
+            <h4 class="text-footer">Jurídico</h4>
+            <h4 class="text-footer">Informações</h4>
+            <h4 class="text-footer">Contatos</h4>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="last-phrase">
+              <span class="direitos"
+                >©2023 Elastic Code. Todos os direitos reservados.</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-        crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
